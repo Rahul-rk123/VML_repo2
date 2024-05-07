@@ -7,7 +7,7 @@ public class ex1 {
         Scanner sd = new Scanner(System.in);
         System.out.println("Enter the String:");
         String str = sd.next();
-        System.out.println(fir(str));
+        System.out.println("The reverse String is:"+fir(str));
         sd.close();
     }
     public static String fir(String s){
