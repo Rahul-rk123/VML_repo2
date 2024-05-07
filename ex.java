@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ex {
     public static void main(String[] args) {
         Scanner sd = new Scanner(System.in);
+        System.out.println("Enter the numbers:);
         int s = sd.nextInt();
         int k = sd.nextInt();
         System.out.println("Multiplication is"+mul(s,k));
