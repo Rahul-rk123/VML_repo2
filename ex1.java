@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ex1 {
     public static void main(String[] args) {
         Scanner sd = new Scanner(System.in);
-        System.out.println("Enter the String");
+        System.out.println("Enter the String::");
         String str = sd.next();
         System.out.println(fir(str));
         sd.close();
